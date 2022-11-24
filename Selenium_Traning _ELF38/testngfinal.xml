@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    	<class name="Update_TestCase.Action_Class"/>
+      <class name="Update_TestCase.ADD_To_cart"/>
+        <class name="Update_TestCase.Advances_search_pom"/>
+        <class name="Update_TestCase.contact_DWS"/>
+        <class name="Update_TestCase.Digital_HomePAge"/>
+         <class name="Update_TestCase.DWS_HomePage"/>
+          <class name="Update_TestCase.Gift_Card"/>
+		<class name="Update_TestCase.Jewelery_DWS"/>
+      <class name="Update_TestCase.Login_TEst_pom"/>
+      <class name="Update_TestCase.Multiple_HAndles"/>
+	  <class name="Update_TestCase.Newspapper_DWS"/>
+      <class name="Update_TestCase.Register_pom_java"/>
+       <class name="Update_TestCase.Search_pom"/>
+	   <class name="Update_TestCase.Vote_pom"/>
+      <class name="Update_TestCase.Whishlist_DWS"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Admin\Documents\Eclipse\Selenium_Traning _ELF38\testngfinal.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Update_TestCase.Digital_HomePAge" class="method navigator-link" hash-for-method="homepage">homepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Update_TestCase.Advances_search_pom" class="method navigator-link" hash-for-method="Advance_Test">Advance_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Update_TestCase.Action_Class" class="method navigator-link" hash-for-method="Computer">Computer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Update_TestCase.Gift_Card" class="method navigator-link" hash-for-method="Gift_card">Gift_card</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Update_TestCase.Jewelery_DWS" class="method navigator-link" hash-for-method="Jewelery">Jewelery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Update_TestCase.Newspapper_DWS" class="method navigator-link" hash-for-method="Newsletter">Newsletter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Update_TestCase.Multiple_HAndles" class="method navigator-link" hash-for-method="T3est_case">T3est_case</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Update_TestCase.Login_TEst_pom" class="method navigator-link" hash-for-method="Test_case">Test_case</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Update_TestCase.ADD_To_cart" class="method navigator-link" hash-for-method="Test_case1">Test_case1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Update_TestCase.Vote_pom" class="method navigator-link" hash-for-method="Test_case1">Test_case1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Update_TestCase.Register_pom_java" class="method navigator-link" hash-for-method="Test_case1">Test_case1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Update_TestCase.Search_pom" class="method navigator-link" hash-for-method="Test_case2">Test_case2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Update_TestCase.Whishlist_DWS" class="method navigator-link" hash-for-method="WishlistTest">WishlistTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Update_TestCase.contact_DWS" class="method navigator-link" hash-for-method="contact">contact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Update_TestCase.Digital_HomePAge</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homepage">
+                  </a> <!-- homepage -->
+                  <span class="method-name">homepage</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.107)
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:07:36.161Z&apos;
+System info: host: &apos;DESKTOP-MCNBSPV&apos;, ip: &apos;10.10.60.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1204c5a78637ba340d8e2e1ae7366d5f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at POM_Pages.Digital_homepage_01.DDD(Digital_homepage_01.java:35)
+	at Update_TestCase.Digital_HomePAge.homepage(Digital_HomePAge.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Update_TestCase.Action_Class</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Computer">
+                  </a> <!-- Computer -->
+                  <span class="method-name">Computer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Update_TestCase.Gift_Card</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Gift_card">
+                  </a> <!-- Gift_card -->
+                  <span class="method-name">Gift_card</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Update_TestCase.contact_DWS</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contact">
+                  </a> <!-- contact -->
+                  <span class="method-name">contact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Update_TestCase.Vote_pom</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_case1">
+                  </a> <!-- Test_case1 -->
+                  <span class="method-name">Test_case1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Update_TestCase.Login_TEst_pom</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_case">
+                  </a> <!-- Test_case -->
+                  <span class="method-name">Test_case</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Update_TestCase.Multiple_HAndles</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="T3est_case">
+                  </a> <!-- T3est_case -->
+                  <span class="method-name">T3est_case</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Update_TestCase.Advances_search_pom</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Advance_Test">
+                  </a> <!-- Advance_Test -->
+                  <span class="method-name">Advance_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Update_TestCase.Search_pom</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_case2">
+                  </a> <!-- Test_case2 -->
+                  <span class="method-name">Test_case2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Update_TestCase.Newspapper_DWS</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Newsletter">
+                  </a> <!-- Newsletter -->
+                  <span class="method-name">Newsletter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Update_TestCase.Whishlist_DWS</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="WishlistTest">
+                  </a> <!-- WishlistTest -->
+                  <span class="method-name">WishlistTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Update_TestCase.Jewelery_DWS</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Jewelery">
+                  </a> <!-- Jewelery -->
+                  <span class="method-name">Jewelery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Update_TestCase.Register_pom_java</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_case1">
+                  </a> <!-- Test_case1 -->
+                  <span class="method-name">Test_case1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Update_TestCase.ADD_To_cart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_case1">
+                  </a> <!-- Test_case1 -->
+                  <span class="method-name">Test_case1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\Documents\Eclipse\Selenium_Traning _ELF38\testngfinal.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Update_TestCase.Action_Class&quot;/&gt;
+      &lt;class name=&quot;Update_TestCase.ADD_To_cart&quot;/&gt;
+      &lt;class name=&quot;Update_TestCase.Advances_search_pom&quot;/&gt;
+      &lt;class name=&quot;Update_TestCase.contact_DWS&quot;/&gt;
+      &lt;class name=&quot;Update_TestCase.Digital_HomePAge&quot;/&gt;
+      &lt;class name=&quot;Update_TestCase.DWS_HomePage&quot;/&gt;
+      &lt;class name=&quot;Update_TestCase.Gift_Card&quot;/&gt;
+      &lt;class name=&quot;Update_TestCase.Jewelery_DWS&quot;/&gt;
+      &lt;class name=&quot;Update_TestCase.Login_TEst_pom&quot;/&gt;
+      &lt;class name=&quot;Update_TestCase.Multiple_HAndles&quot;/&gt;
+      &lt;class name=&quot;Update_TestCase.Newspapper_DWS&quot;/&gt;
+      &lt;class name=&quot;Update_TestCase.Register_pom_java&quot;/&gt;
+      &lt;class name=&quot;Update_TestCase.Search_pom&quot;/&gt;
+      &lt;class name=&quot;Update_TestCase.Vote_pom&quot;/&gt;
+      &lt;class name=&quot;Update_TestCase.Whishlist_DWS&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (15 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'homepage')
+data.setCell(0, 2, 'Update_TestCase.Digital_HomePAge')
+data.setCell(0, 3, 13750);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Test_case1')
+data.setCell(1, 2, 'Update_TestCase.Register_pom_java')
+data.setCell(1, 3, 11094);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Gift_card')
+data.setCell(2, 2, 'Update_TestCase.Gift_Card')
+data.setCell(2, 3, 9277);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Newsletter')
+data.setCell(3, 2, 'Update_TestCase.Newspapper_DWS')
+data.setCell(3, 3, 6135);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Jewelery')
+data.setCell(4, 2, 'Update_TestCase.Jewelery_DWS')
+data.setCell(4, 3, 5054);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Advance_Test')
+data.setCell(5, 2, 'Update_TestCase.Advances_search_pom')
+data.setCell(5, 3, 4351);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Test_case')
+data.setCell(6, 2, 'Update_TestCase.Login_TEst_pom')
+data.setCell(6, 3, 3802);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'contact')
+data.setCell(7, 2, 'Update_TestCase.contact_DWS')
+data.setCell(7, 3, 3023);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Test_case2')
+data.setCell(8, 2, 'Update_TestCase.Search_pom')
+data.setCell(8, 3, 2761);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'WishlistTest')
+data.setCell(9, 2, 'Update_TestCase.Whishlist_DWS')
+data.setCell(9, 3, 2597);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Computer')
+data.setCell(10, 2, 'Update_TestCase.Action_Class')
+data.setCell(10, 3, 2373);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Test_case1')
+data.setCell(11, 2, 'Update_TestCase.Vote_pom')
+data.setCell(11, 3, 637);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'T3est_case')
+data.setCell(12, 2, 'Update_TestCase.Multiple_HAndles')
+data.setCell(12, 3, 459);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Test_case1')
+data.setCell(13, 2, 'Update_TestCase.ADD_To_cart')
+data.setCell(13, 3, 265);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Update_TestCase.Action_Class</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Computer</span>
+                <span class="method-start">20861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Shutdown</span>
+                <span class="method-start">23241 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Update_TestCase.ADD_To_cart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">24716 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Test_case1</span>
+                <span class="method-start">31796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Shutdown</span>
+                <span class="method-start">32068 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Update_TestCase.Advances_search_pom</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">33009 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Advance_Test</span>
+                <span class="method-start">41395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Shutdown</span>
+                <span class="method-start">45752 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Update_TestCase.contact_DWS</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">46139 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">contact</span>
+                <span class="method-start">54930 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Shutdown</span>
+                <span class="method-start">57956 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Update_TestCase.Digital_HomePAge</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">58353 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">homepage</span>
+                <span class="method-start">67440 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Shutdown</span>
+                <span class="method-start">81251 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Update_TestCase.Gift_Card</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">81890 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Gift_card</span>
+                <span class="method-start">94340 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Shutdown</span>
+                <span class="method-start">103622 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Update_TestCase.Jewelery_DWS</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">104371 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Jewelery</span>
+                <span class="method-start">116319 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Shutdown</span>
+                <span class="method-start">121376 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Update_TestCase.Login_TEst_pom</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">122238 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Test_case</span>
+                <span class="method-start">133720 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Shutdown</span>
+                <span class="method-start">137532 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Update_TestCase.Multiple_HAndles</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">138136 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">T3est_case</span>
+                <span class="method-start">147308 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Shutdown</span>
+                <span class="method-start">147773 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Update_TestCase.Newspapper_DWS</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">147883 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Newsletter</span>
+                <span class="method-start">173685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Shutdown</span>
+                <span class="method-start">179822 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Update_TestCase.Register_pom_java</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">181655 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Test_case1</span>
+                <span class="method-start">200047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Shutdown</span>
+                <span class="method-start">211143 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Update_TestCase.Search_pom</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">213944 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Test_case2</span>
+                <span class="method-start">227212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Shutdown</span>
+                <span class="method-start">229975 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Update_TestCase.Vote_pom</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">237430 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Test_case1</span>
+                <span class="method-start">267792 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Shutdown</span>
+                <span class="method-start">268433 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Update_TestCase.Whishlist_DWS</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">279348 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">WishlistTest</span>
+                <span class="method-start">303728 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Shutdown</span>
+                <span class="method-start">306326 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
