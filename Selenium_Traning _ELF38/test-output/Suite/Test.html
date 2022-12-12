@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 21 17:26:57 IST 2022</td>
+<td>Started on:</td><td>Fri Nov 25 18:04:41 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>309 seconds (309913 ms)</td>
+<tr><td>Total time:</td><td>74 seconds (74834 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,52 +75,120 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Update_TestCase.Digital_HomePAge.homepage()'><b>homepage</b><br>Test class: Update_TestCase.Digital_HomePAge</td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=107.0.5304.107)
+<td title='Working_With_Assertions.Working_with_Cross_Browser_Test.crossBrowserDemo()'><b>crossBrowserDemo</b><br>Test class: Working_With_Assertions.Working_with_Cross_Browser_Test<br>Parameters: chrome</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: chrome not reachable
 Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:07:36.161Z&apos;
-System info: host: &apos;DESKTOP-MCNBSPV&apos;, ip: &apos;10.10.60.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1204c5a78637ba340d8e2e1ae7366d5f
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+System info: host: &apos;DESKTOP-MCNBSPV&apos;, ip: &apos;192.168.100.75&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00A11ED3+2236115]
+	Ordinal0 [0x009A92F1+1807089]
+	Ordinal0 [0x008B65C0+812480]
+	Ordinal0 [0x008AC08A+770186]
+	Ordinal0 [0x008D860E+951822]
+	Ordinal0 [0x008D4200+934400]
+	Ordinal0 [0x008D19C9+924105]
+	Ordinal0 [0x0090806C+1146988]
+	Ordinal0 [0x00907A6A+1145450]
+	Ordinal0 [0x009018A6+1120422]
+	Ordinal0 [0x008DA73D+960317]
+	Ordinal0 [0x008DB71F+964383]
+	GetHandleVerifier [0x00CBE7E2+2743074]
+	GetHandleVerifier [0x00CB08D4+2685972]
+	GetHandleVerifier [0x00AA2BAA+532202]
+	GetHandleVerifier [0x00AA1990+527568]
+	Ordinal0 [0x009B080C+1837068]
+	Ordinal0 [0x009B4CD8+1854680]
+	Ordinal0 [0x009B4DC5+1854917]
+	Ordinal0 [0x009BED64+1895780]
+	BaseThreadInitThunk [0x76EAFEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x77BD7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77BD7B8E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
-	at POM_Pages.Digital_homepage_01.DDD(Digital_homepage_01.java:35)
-	at Update_TestCase.Digital_HomePAge.homepage(Digital_HomePAge.java:16)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Working_With_Assertions.Working_with_Cross_Browser_Test.crossBrowserDemo(Working_with_Cross_Browser_Test.java:22)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1816468636", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1816468636'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=107.0.5304.107)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1542427459", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1542427459'><pre>org.openqa.selenium.WebDriverException: chrome not reachable
 Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:07:36.161Z&apos;
-System info: host: &apos;DESKTOP-MCNBSPV&apos;, ip: &apos;10.10.60.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1204c5a78637ba340d8e2e1ae7366d5f
+System info: host: &apos;DESKTOP-MCNBSPV&apos;, ip: &apos;192.168.100.75&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00A11ED3+2236115]
+	Ordinal0 [0x009A92F1+1807089]
+	Ordinal0 [0x008B65C0+812480]
+	Ordinal0 [0x008AC08A+770186]
+	Ordinal0 [0x008D860E+951822]
+	Ordinal0 [0x008D4200+934400]
+	Ordinal0 [0x008D19C9+924105]
+	Ordinal0 [0x0090806C+1146988]
+	Ordinal0 [0x00907A6A+1145450]
+	Ordinal0 [0x009018A6+1120422]
+	Ordinal0 [0x008DA73D+960317]
+	Ordinal0 [0x008DB71F+964383]
+	GetHandleVerifier [0x00CBE7E2+2743074]
+	GetHandleVerifier [0x00CB08D4+2685972]
+	GetHandleVerifier [0x00AA2BAA+532202]
+	GetHandleVerifier [0x00AA1990+527568]
+	Ordinal0 [0x009B080C+1837068]
+	Ordinal0 [0x009B4CD8+1854680]
+	Ordinal0 [0x009B4DC5+1854917]
+	Ordinal0 [0x009BED64+1895780]
+	BaseThreadInitThunk [0x76EAFEF9+25]
+	RtlGetAppContainerNamedObjectPath [0x77BD7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77BD7B8E+238]
+
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
-	at POM_Pages.Digital_homepage_01.DDD(Digital_homepage_01.java:35)
-	at Update_TestCase.Digital_HomePAge.homepage(Digital_HomePAge.java:16)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Working_With_Assertions.Working_with_Cross_Browser_Test.crossBrowserDemo(Working_with_Cross_Browser_Test.java:22)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -135,94 +203,16 @@ Session ID: 1204c5a78637ba340d8e2e1ae7366d5f
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
-<td>13</td>
-<td>Update_TestCase.Digital_HomePAge@5bf0d49</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='Update_TestCase.contact_DWS.contact()'><b>contact</b><br>Test class: Update_TestCase.contact_DWS</td>
-<td></td>
-<td>3</td>
-<td>Update_TestCase.contact_DWS@175c2241</td></tr>
-<tr>
-<td title='Update_TestCase.Login_TEst_pom.Test_case()'><b>Test_case</b><br>Test class: Update_TestCase.Login_TEst_pom</td>
-<td></td>
-<td>3</td>
-<td>Update_TestCase.Login_TEst_pom@7c7a06ec</td></tr>
-<tr>
-<td title='Update_TestCase.Gift_Card.Gift_card()'><b>Gift_card</b><br>Test class: Update_TestCase.Gift_Card</td>
-<td></td>
-<td>9</td>
-<td>Update_TestCase.Gift_Card@776aec5c</td></tr>
-<tr>
-<td title='Update_TestCase.Jewelery_DWS.Jewelery()'><b>Jewelery</b><br>Test class: Update_TestCase.Jewelery_DWS</td>
-<td></td>
-<td>5</td>
-<td>Update_TestCase.Jewelery_DWS@1d296da</td></tr>
-<tr>
-<td title='Update_TestCase.Search_pom.Test_case2()'><b>Test_case2</b><br>Test class: Update_TestCase.Search_pom</td>
-<td></td>
-<td>2</td>
-<td>Update_TestCase.Search_pom@6c6cb480</td></tr>
-<tr>
-<td title='Update_TestCase.Action_Class.Computer()'><b>Computer</b><br>Test class: Update_TestCase.Action_Class</td>
-<td></td>
-<td>2</td>
-<td>Update_TestCase.Action_Class@6771beb3</td></tr>
-<tr>
-<td title='Update_TestCase.Advances_search_pom.Advance_Test()'><b>Advance_Test</b><br>Test class: Update_TestCase.Advances_search_pom</td>
-<td></td>
-<td>4</td>
-<td>Update_TestCase.Advances_search_pom@4afcd809</td></tr>
-<tr>
-<td title='Update_TestCase.ADD_To_cart.Test_case1()'><b>Test_case1</b><br>Test class: Update_TestCase.ADD_To_cart</td>
-<td></td>
-<td>0</td>
-<td>Update_TestCase.ADD_To_cart@62379589</td></tr>
-<tr>
-<td title='Update_TestCase.Newspapper_DWS.Newsletter()'><b>Newsletter</b><br>Test class: Update_TestCase.Newspapper_DWS</td>
-<td></td>
-<td>6</td>
-<td>Update_TestCase.Newspapper_DWS@557caf28</td></tr>
-<tr>
-<td title='Update_TestCase.Vote_pom.Test_case1()'><b>Test_case1</b><br>Test class: Update_TestCase.Vote_pom</td>
-<td></td>
-<td>0</td>
-<td>Update_TestCase.Vote_pom@3c46e67a</td></tr>
-<tr>
-<td title='Update_TestCase.Whishlist_DWS.WishlistTest()'><b>WishlistTest</b><br>Test class: Update_TestCase.Whishlist_DWS</td>
-<td></td>
-<td>2</td>
-<td>Update_TestCase.Whishlist_DWS@c730b35</td></tr>
-<tr>
-<td title='Update_TestCase.Multiple_HAndles.T3est_case()'><b>T3est_case</b><br>Test class: Update_TestCase.Multiple_HAndles</td>
-<td></td>
-<td>0</td>
-<td>Update_TestCase.Multiple_HAndles@75d4a5c2</td></tr>
-<tr>
-<td title='Update_TestCase.Register_pom_java.Test_case1()'><b>Test_case1</b><br>Test class: Update_TestCase.Register_pom_java</td>
-<td></td>
-<td>11</td>
-<td>Update_TestCase.Register_pom_java@408d971b</td></tr>
+<td>74</td>
+<td>Working_With_Assertions.Working_with_Cross_Browser_Test@4562e04d</td></tr>
 </table><p>
 </body>
 </html>

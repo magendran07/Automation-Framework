@@ -9,11 +9,12 @@ public class Working_with_propertyfile {
 public void propertydemo() throws IOException {
 		String filepath="./Test_configuration/Test_configuration.properties";
 		FileInputStream fis=new FileInputStream(filepath);//
-		//create object forthe property for only a property file
-		 
+		//create object for the property for only a property file
+		
+	
+	
 		Properties prop=new Properties();
 		prop.load(fis); 
 		System.out.println(prop.get("url"));
 	}
 }
- 

@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <parameter name="Browser" value="chrome"/>
     <classes>
-      <class name="Update_TestCase.Digital_HomePAge">
+      <class name="Working_With_Assertions.Working_with_Cross_Browser_Test">
         <methods>
-          <include name="BrowserSetup"/>
-          <include name="Shutdown"/>
-          <include name="homepage"/>
+          <include name="crossBrowserDemo" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Update_TestCase.Digital_HomePAge -->
+      </class> <!-- Working_With_Assertions.Working_with_Cross_Browser_Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
